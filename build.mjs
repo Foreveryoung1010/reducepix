@@ -9,6 +9,8 @@ const publicFiles = [
   'terms.html',
   '_headers',
   'favicon.svg',
+  'og-image.png',
+  'og-image.svg',
   'robots.txt',
   'sitemap.xml'
 ];

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11131a"/>
+      <stop offset="100%" style="stop-color:#1a1d2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#ff8052"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1050" cy="100" r="300" fill="#ff6b35" opacity="0.06"/>
+  <circle cx="150" cy="530" r="250" fill="#ff6b35" opacity="0.04"/>
+  <rect x="80" y="80" width="6" height="80" rx="3" fill="url(#accent)"/>
+  <text x="105" y="138" font-family="Inter, system-ui, sans-serif" font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-2">ReducePix</text>
+  <text x="105" y="190" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#6c7280" letter-spacing="0.5">Compress images privately in your browser</text>
+  <rect x="105" y="240" width="480" height="2" rx="1" fill="#252833"/>
+  <g transform="translate(105, 290)">
+    <rect width="200" height="200" rx="20" fill="#1a1d2e" stroke="#252833" stroke-width="1"/>
+    <text x="100" y="80" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#6c7280" text-anchor="middle" font-weight="600">BEFORE</text>
+    <text x="100" y="115" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="800" fill="#ffffff" text-anchor="middle">2.4 MB</text>
+    <text x="100" y="145" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#6c7280" text-anchor="middle">original image</text>
+  </g>
+  <g transform="translate(380, 350)">
+    <polygon points="0,-20 40,0 0,20" fill="#ff6b35"/>
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#ff6b35" stroke-width="2"/>
+  </g>
+  <g transform="translate(480, 290)">
+    <rect width="200" height="200" rx="20" fill="#1a1d2e" stroke="#ff6b35" stroke-width="1.5" opacity="0.8"/>
+    <text x="100" y="80" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#ff6b35" text-anchor="middle" font-weight="600">AFTER</text>
+    <text x="100" y="115" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="800" fill="#dbf5e8" text-anchor="middle">340 KB</text>
+    <text x="100" y="145" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#6c7280" text-anchor="middle">compressed</text>
+    <rect x="55" y="160" width="90" height="24" rx="12" fill="#176644" opacity="0.3"/>
+    <text x="100" y="177" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#dbf5e8" text-anchor="middle" font-weight="700">86% smaller</text>
+  </g>
+  <g transform="translate(800, 290)">
+    <rect width="300" height="60" rx="14" fill="#ff6b35" opacity="0.12"/>
+    <text x="150" y="38" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="800" fill="#ff6b35" text-anchor="middle" letter-spacing="-0.5">No upload. Purely local.</text>
+  </g>
+  <g transform="translate(800, 380)">
+    <circle cx="12" cy="12" r="5" fill="#30ad74"/>
+    <text x="28" y="17" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#b5bac4" font-weight="600">JPG, PNG, WebP</text>
+  </g>
+  <g transform="translate(800, 420)">
+    <circle cx="12" cy="12" r="5" fill="#30ad74"/>
+    <text x="28" y="17" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#b5bac4" font-weight="600">Batch processing</text>
+  </g>
+  <g transform="translate(800, 460)">
+    <circle cx="12" cy="12" r="5" fill="#30ad74"/>
+    <text x="28" y="17" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#b5bac4" font-weight="600">Target file size</text>
+  </g>
+  <text x="105" y="580" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#3a3d48" letter-spacing="1">reducepix.com</text>
+</svg>
