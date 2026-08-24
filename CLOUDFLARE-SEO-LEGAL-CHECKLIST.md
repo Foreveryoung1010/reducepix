@@ -1,6 +1,6 @@
 # PixelCrate launch checklist
 
-This project is a static Cloudflare Pages site. The current public hostname is `https://pixelcrate.pages.dev/`; replace it everywhere if a custom domain is selected.
+This project is a static Cloudflare-hosted Site. The current public hostname is `https://pixelcrate.lurassica.chatgpt.site/`; replace it everywhere if a custom domain is selected.
 
 ## Cloudflare Pages
 

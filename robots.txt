@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pixelcrate.pages.dev/sitemap.xml
+Sitemap: https://pixelcrate.lurassica.chatgpt.site/sitemap.xml
