@@ -1,10 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import http from 'node:http';
-import { fileURLToPath } from 'node:url';
 
-const currentDir = path.dirname(fileURLToPath(import.meta.url));
-const root = path.resolve(currentDir, '..');
+const root = path.resolve(process.cwd(), 'dist');
 const port = Number(process.env.PORT || 8787);
 const host = process.env.HOST || '0.0.0.0';
 const mime = {
