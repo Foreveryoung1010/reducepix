@@ -4,6 +4,6 @@
   "private": true,
   "description": "PixelCrate browser-based image compressor",
   "scripts": {
-    "build": "node -e \"console.log('PixelCrate static build ready')\""
+    "build": "node build.mjs"
   }
 }
