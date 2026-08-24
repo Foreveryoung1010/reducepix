@@ -15,8 +15,11 @@ const publicFiles = [
 
 fs.rmSync(output, { recursive: true, force: true });
 fs.mkdirSync(output, { recursive: true });
+const assets = path.join(output, 'assets');
+fs.mkdirSync(assets, { recursive: true });
 for (const file of publicFiles) {
   fs.copyFileSync(path.join(root, file), path.join(output, file));
+  fs.copyFileSync(path.join(root, file), path.join(assets, file));
 }
 fs.mkdirSync(path.join(output, '.openai'), { recursive: true });
 fs.copyFileSync(path.join(root, '.openai', 'hosting.json'), path.join(output, '.openai', 'hosting.json'));
