@@ -4,7 +4,7 @@
 
 import { chromium } from 'playwright-core';
 
-const BASE = 'https://reducepix.lurassica.chatgpt.site';
+const BASE = 'https://reducepix.pages.dev';
 const PROJECT_DIR = 'd:\\AI项目\\TRAE WORK\\图片工具站';
 
 const results = [];

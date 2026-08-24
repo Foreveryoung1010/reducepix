@@ -5,7 +5,7 @@
 // 检查 1-11：Shell 级 HTTP/SEO/安全头检查（curl）
 // 检查 12-21：浏览器功能测试（Playwright + 系统 Chrome）
 
-const BASE = 'https://reducepix.lurassica.chatgpt.site';
+const BASE = 'https://reducepix.pages.dev';
 const PROJECT_DIR = 'd:\\AI项目\\TRAE WORK\\图片工具站';
 
 const results = [];
