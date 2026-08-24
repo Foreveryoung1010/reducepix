@@ -1,8 +1,8 @@
 {
-  "name": "pixelcrate",
+  "name": "reducepix",
   "version": "1.0.0",
   "private": true,
-  "description": "PixelCrate browser-based image compressor",
+  "description": "ReducePix browser-based image compressor",
   "scripts": {
     "build": "node build.mjs"
   }

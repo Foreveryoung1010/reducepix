@@ -25,4 +25,4 @@ fs.mkdirSync(path.join(output, '.openai'), { recursive: true });
 fs.copyFileSync(path.join(root, '.openai', 'hosting.json'), path.join(output, '.openai', 'hosting.json'));
 fs.mkdirSync(path.join(output, 'server'), { recursive: true });
 fs.copyFileSync(path.join(root, 'server-entry.mjs'), path.join(output, 'server', 'index.js'));
-console.log(`PixelCrate static build ready: ${publicFiles.length} files`);
+console.log(`ReducePix static build ready: ${publicFiles.length} files`);

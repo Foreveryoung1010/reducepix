@@ -1,15 +1,15 @@
-# PixelCrate launch checklist
+# ReducePix launch checklist
 
-This project is a static Cloudflare-hosted Site. The current public hostname is `https://pixelcrate.lurassica.chatgpt.site/`; replace it everywhere if a custom domain is selected.
+This project is a static Cloudflare-hosted Site. The current public hostname is `https://reducepix.lurassica.chatgpt.site/`; replace it everywhere if a custom domain is selected.
 
 ## Cloudflare Pages
 
-1. Create a Pages project named `pixelcrate`.
+1. Create a Pages project named `reducepix`.
 2. Choose either Git integration or Direct Upload. Cloudflare documents that a Git-integrated project cannot later be switched to Direct Upload, so choose the deployment model before launch.
 3. For Direct Upload, run from this folder:
 
 ```powershell
-npx wrangler pages deploy . --project-name=pixelcrate
+npx wrangler pages deploy . --project-name=reducepix
 ```
 
 4. For a custom subdomain, add the domain in Pages first, then create the documented CNAME to `<project>.pages.dev`. An apex domain requires the domain to be a Cloudflare zone with Cloudflare nameservers.
